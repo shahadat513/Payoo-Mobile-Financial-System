@@ -4,7 +4,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
     const inputPinNumber = document.getElementById('input-pin-number').value;
 
 
-    if (inputPinNumber === '123') {
+    if (inputPinNumber === '1234') {
         const currentBalance = document.getElementById('current-balance').innerText;
         const addMoneyNumber = parseFloat(addMoney)
         const balanceNumber = parseFloat(currentBalance)
@@ -14,6 +14,6 @@ document.getElementById('btn-add-money').addEventListener('click', function (eve
 
     }
     else {
-        alert('Invalid Pin Number')
+        alert('Invalid Pin Number. Please Try Again Later')
     }
 })
